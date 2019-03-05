@@ -2,8 +2,13 @@
 
 exports[`Tag styled components StyledAction : StyledAction has correct styles when  1`] = `
 Object {
+  ":focus": Object {
+    "backgroundColor": null,
+    "color": null,
+  },
   ":hover": Object {
     "backgroundColor": null,
+    "color": null,
   },
   "alignItems": "center",
   "borderBottomRightRadius": "$theme.borders.radius400",
@@ -11,44 +16,51 @@ Object {
   "cursor": "pointer",
   "display": "flex",
   "marginLeft": "8px",
-  "paddingBottom": "8px",
+  "paddingBottom": "7px",
   "paddingLeft": "8px",
   "paddingRight": "8px",
-  "paddingTop": "8px",
+  "paddingTop": "7px",
 }
 `;
 
 exports[`Tag styled components StyledAction : StyledAction has correct styles when $disabled 1`] = `
 Object {
-  ":hover": Object {
-    "backgroundColor": null,
-  },
+  ":focus": Object {},
+  ":hover": Object {},
   "alignItems": "center",
   "borderBottomRightRadius": "$theme.borders.radius400",
   "borderTopRightRadius": "$theme.borders.radius400",
   "cursor": "not-allowed",
   "display": "flex",
   "marginLeft": "8px",
-  "paddingBottom": "8px",
+  "paddingBottom": "7px",
   "paddingLeft": "8px",
   "paddingRight": "8px",
-  "paddingTop": "8px",
+  "paddingTop": "7px",
 }
 `;
 
 exports[`Tag styled components StyledRoot : StyledRoot has correct styles when  1`] = `
 Object {
+  ":focus": Object {
+    "backgroundColor": null,
+    "borderColor": "transparent",
+    "color": undefined,
+  },
   ":hover": Object {
     "backgroundColor": null,
+    "borderColor": "transparent",
+    "color": undefined,
   },
   "alignItems": "center",
   "backgroundColor": null,
-  "borderColor": undefined,
+  "borderColor": "transparent",
   "borderRadius": "$theme.borders.radius400",
-  "borderWidth": "1px",
+  "borderStyle": "solid",
+  "borderWidth": "0",
   "boxSizing": "border-box",
   "color": undefined,
-  "cursor": "auto",
+  "cursor": "default",
   "display": "inline-flex",
   "fontFamily": "$theme.typography.font250.fontFamily",
   "fontSize": "$theme.typography.font250.fontSize",
@@ -61,26 +73,35 @@ Object {
   "marginRight": "5px",
   "marginTop": "5px",
   "opacity": null,
-  "paddingBottom": "$theme.sizing.scale100",
+  "outline": "none",
+  "paddingBottom": "$theme.sizing.scale0",
   "paddingLeft": "$theme.sizing.scale500",
   "paddingRight": "$theme.sizing.scale500",
-  "paddingTop": "$theme.sizing.scale100",
+  "paddingTop": "$theme.sizing.scale0",
 }
 `;
 
 exports[`Tag styled components StyledRoot : StyledRoot has correct styles when $closable 1`] = `
 Object {
+  ":focus": Object {
+    "backgroundColor": null,
+    "borderColor": "transparent",
+    "color": undefined,
+  },
   ":hover": Object {
     "backgroundColor": null,
+    "borderColor": "transparent",
+    "color": undefined,
   },
   "alignItems": "center",
   "backgroundColor": null,
-  "borderColor": undefined,
+  "borderColor": "transparent",
   "borderRadius": "$theme.borders.radius400",
-  "borderWidth": "1px",
+  "borderStyle": "solid",
+  "borderWidth": "0",
   "boxSizing": "border-box",
   "color": undefined,
-  "cursor": "auto",
+  "cursor": "default",
   "display": "inline-flex",
   "fontFamily": "$theme.typography.font250.fontFamily",
   "fontSize": "$theme.typography.font250.fontSize",
@@ -93,23 +114,24 @@ Object {
   "marginRight": "5px",
   "marginTop": "5px",
   "opacity": null,
-  "paddingBottom": "$theme.sizing.scale100",
+  "outline": "none",
+  "paddingBottom": "$theme.sizing.scale0",
   "paddingLeft": "$theme.sizing.scale500",
   "paddingRight": "$theme.sizing.scale500",
-  "paddingTop": "$theme.sizing.scale100",
+  "paddingTop": "$theme.sizing.scale0",
 }
 `;
 
 exports[`Tag styled components StyledRoot : StyledRoot has correct styles when $disabled 1`] = `
 Object {
-  ":hover": Object {
-    "backgroundColor": null,
-  },
+  ":focus": Object {},
+  ":hover": Object {},
   "alignItems": "center",
   "backgroundColor": null,
-  "borderColor": undefined,
+  "borderColor": "transparent",
   "borderRadius": "$theme.borders.radius400",
-  "borderWidth": "1px",
+  "borderStyle": "solid",
+  "borderWidth": "0",
   "boxSizing": "border-box",
   "color": undefined,
   "cursor": "not-allowed",
@@ -125,26 +147,35 @@ Object {
   "marginRight": "5px",
   "marginTop": "5px",
   "opacity": ".56",
-  "paddingBottom": "$theme.sizing.scale100",
+  "outline": "none",
+  "paddingBottom": "$theme.sizing.scale0",
   "paddingLeft": "$theme.sizing.scale500",
   "paddingRight": "$theme.sizing.scale500",
-  "paddingTop": "$theme.sizing.scale100",
+  "paddingTop": "$theme.sizing.scale0",
 }
 `;
 
 exports[`Tag styled components StyledRoot : StyledRoot has correct styles when $isActive 1`] = `
 Object {
+  ":focus": Object {
+    "backgroundColor": null,
+    "borderColor": "transparent",
+    "color": undefined,
+  },
   ":hover": Object {
     "backgroundColor": null,
+    "borderColor": "transparent",
+    "color": undefined,
   },
   "alignItems": "center",
   "backgroundColor": null,
-  "borderColor": undefined,
+  "borderColor": "transparent",
   "borderRadius": "$theme.borders.radius400",
-  "borderWidth": "1px",
+  "borderStyle": "solid",
+  "borderWidth": "0",
   "boxSizing": "border-box",
   "color": undefined,
-  "cursor": "auto",
+  "cursor": "default",
   "display": "inline-flex",
   "fontFamily": "$theme.typography.font250.fontFamily",
   "fontSize": "$theme.typography.font250.fontSize",
@@ -157,26 +188,35 @@ Object {
   "marginRight": "5px",
   "marginTop": "5px",
   "opacity": null,
-  "paddingBottom": "$theme.sizing.scale100",
+  "outline": "none",
+  "paddingBottom": "$theme.sizing.scale0",
   "paddingLeft": "$theme.sizing.scale500",
   "paddingRight": "$theme.sizing.scale500",
-  "paddingTop": "$theme.sizing.scale100",
+  "paddingTop": "$theme.sizing.scale0",
 }
 `;
 
 exports[`Tag styled components StyledRoot : StyledRoot has correct styles when $isFocused 1`] = `
 Object {
+  ":focus": Object {
+    "backgroundColor": null,
+    "borderColor": "transparent",
+    "color": undefined,
+  },
   ":hover": Object {
     "backgroundColor": null,
+    "borderColor": "transparent",
+    "color": undefined,
   },
   "alignItems": "center",
   "backgroundColor": null,
-  "borderColor": undefined,
+  "borderColor": "transparent",
   "borderRadius": "$theme.borders.radius400",
-  "borderWidth": "1px",
+  "borderStyle": "solid",
+  "borderWidth": "0",
   "boxSizing": "border-box",
   "color": undefined,
-  "cursor": "auto",
+  "cursor": "default",
   "display": "inline-flex",
   "fontFamily": "$theme.typography.font250.fontFamily",
   "fontSize": "$theme.typography.font250.fontSize",
@@ -189,9 +229,10 @@ Object {
   "marginRight": "5px",
   "marginTop": "5px",
   "opacity": null,
-  "paddingBottom": "$theme.sizing.scale100",
+  "outline": "none",
+  "paddingBottom": "$theme.sizing.scale0",
   "paddingLeft": "$theme.sizing.scale500",
   "paddingRight": "$theme.sizing.scale500",
-  "paddingTop": "$theme.sizing.scale100",
+  "paddingTop": "$theme.sizing.scale0",
 }
 `;
